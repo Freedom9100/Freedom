@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Freedom9100
 - 👀 I’m interested in programming.I like to do new projeckts.
-- 🌱 I’m currently learning codding telegram bots on python.
+- 🌱 I’m currently learning to codding websites.
 - 💞️ I’m looking to collaborate with MrSterdy.
 - 📫 How to reach me? My telegram - @Emilzv
 
