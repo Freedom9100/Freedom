@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&family=Roboto:wght@100;700&display=swap');
+
+
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+*,
+*::before
+*::after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgba(35, 35, 35, 0.893);
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-display: swap;
+    height: inherit;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper{
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: #232323;
+    background-color: rgb(7, 7, 7);
+    border: 1px solid rgb(7, 7, 7);
+    flex-basis: 400px;
+    height: 540px;
+    padding: 20px 35px;
+}
+
+.screen{
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: #232323;
+    font-size: 35px;
+    overflow: auto;
+    padding: 20px;
+    text-align: right;
+    width: 340x;
+}
+
+.calc-butt-row{
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 0;
+}
+
+.calc-butt{
+    background: rgb(79, 78, 78);
+    border: 1px solid rgba(35, 35, 35, 0.1);
+    border-radius: 100%;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: #fff;
+    flex-basis: 16%;
+    font-family: inherit;
+    font-size: 24px;
+    height: 65px;
+}
+
+.calc-butt:last-child{
+    background: rgb(79, 78, 78);
+    border: 1px solid rgba(35, 35, 35, 0.1);
+    border-radius: 100%;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    font-size: 40px;
+    background: #d72; 
+}
+
+.butt-double{
+    flex-basis: 43%;
+    border-radius: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.butt-tripple{
+    flex-basis: 72%;
+    border-radius: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+#double-1{
+    background: #bdbbbb;
+    border: 1px solid #bdbbbb;
+    color: #232323;
+    font-size: 30px;
+}
+
+#backspace{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    background: #bdbbbb;
+    border: 1px solid #bdbbbb;
+    color: #232323;
+}
+
+#double-2{
+    background: rgb(79, 78, 78);
+    border: 1px solid rgb(79, 78, 78);
+    color: #fff;
+    font-size: 30px;
+}
+
+.butt-double:active, .calc-butt:active{
+    transform: scale(0.96); 
+}
